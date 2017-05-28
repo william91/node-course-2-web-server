@@ -41,10 +41,9 @@ app.get('/', (req, res) => {
     })
 });
 
-app.get('/project', (req, res) => {
-  res. render('project.hbs', {
-    pageTitle: 'My Project',
-    content: 'My Portfolio'
+app.get('/projects', (req, res) => {
+  res. render('projects.hbs', {
+    pageTitle: 'Projects'
   })
 });
 
